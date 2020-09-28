@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "661206015657",
+    "firebase_url": "https://gbla-ticket-data.firebaseio.com",
+    "project_id": "gbla-ticket-data",
+    "storage_bucket": "gbla-ticket-data.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:661206015657:android:0825315169739b2583d3b8",
+        "android_client_info": {
+          "package_name": "com.aripratom.gblaticketingapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "661206015657-lm46n9mk21oh51qeece4q48jqguds6ca.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDxfvLu-HCvvOgXrxnIQr91EvbpVReCP88"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "661206015657-lm46n9mk21oh51qeece4q48jqguds6ca.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:661206015657:android:3c94b366dc91996f83d3b8",
+        "android_client_info": {
+          "package_name": "com.aripratom.gblaticketingapps"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "661206015657-lm46n9mk21oh51qeece4q48jqguds6ca.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDxfvLu-HCvvOgXrxnIQr91EvbpVReCP88"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "661206015657-lm46n9mk21oh51qeece4q48jqguds6ca.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:gravity="center"
+    android:padding="30dp"
+    android:orientation="vertical"
+    android:layout_marginTop="8dp"
+    android:focusableInTouchMode="true">
+
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:inputType="textEmailAddress"
+        android:paddingStart="6dp"
+        android:paddingEnd="6dp"
+        android:layout_marginBottom="14dp"
+        android:hint="Email"
+        android:textSize="15sp"
+        android:textColorHint="@color/white"
+        android:textColor="@android:color/white"
+        android:drawableStart="@drawable/ic_email"
+        android:drawablePadding="12dp"
+        android:backgroundTint="@color/white"
+        tools:ignore="Autofill"/>
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:paddingStart="6dp"
+        android:paddingEnd="6dp"
+        android:layout_marginBottom="8dp"
+        android:textSize="15sp"
+        android:textColorHint="@color/white"
+        android:textColor="@android:color/white"
+        android:drawableStart="@drawable/ic_password"
+        android:drawablePadding="12dp"
+        android:backgroundTint="@color/white"
+        tools:ignore="Autofill"/>
+
+    <TextView
+        android:id="@+id/tvWrong"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/masuk_aplikasi_gagal_periksa_kembali_email_dan_password_anda"
+        android:visibility="gone"
+        android:textColor="@android:color/holo_red_light"
+        android:gravity="center" />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginEnd="6dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/shape_button"
+        android:text="@string/login"
+        android:textColor="@android:color/white"/>
+
+    <Button
+        android:id="@+id/btnForgot"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:gravity="center"
+        android:background="@android:color/transparent"
+        android:textColor="@color/white"
+        android:text="@string/lupa_kata_sandi"
+        android:textAllCaps="false"
+        style="@style/Widget.AppCompat.Button.Borderless" />
+
+</LinearLayout>

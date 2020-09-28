@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginTop="8dp"
+    android:focusableInTouchMode="true"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="30dp"
+    tools:context="com.aripratom.gblaticketingapp.ui.pemesananKonfirmasi.PemesananKonfirmasiActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.3dp"
+            android:background="@color/colorPrimary" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:drawableStart="@drawable/ic_info"
+            android:drawablePadding="8dp"
+            android:gravity="center_vertical"
+            android:text="@string/konfirmasi"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.3dp"
+            android:background="@color/colorPrimary" />
+
+        <EditText
+            android:id="@+id/etEmilKonfirmasi"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="14dp"
+            android:backgroundTint="@color/colorPrimary"
+            android:drawableStart="@drawable/ic_email_black_24dp"
+            android:drawablePadding="12dp"
+            android:hint="Email"
+            android:inputType="text"
+            android:paddingStart="6dp"
+            android:paddingEnd="6dp"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/etIdTransaksi"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="14dp"
+            android:backgroundTint="@color/colorPrimary"
+            android:drawableStart="@drawable/ic_fiber_pin_black_24dp"
+            android:drawablePadding="12dp"
+            android:hint="Kode Pembayaran"
+            android:inputType="text"
+            android:paddingStart="6dp"
+            android:paddingEnd="6dp"
+            android:textSize="15sp" />
+
+
+        <Button
+            android:id="@+id/btnKonfirmasi"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginStart="6dp"
+            android:layout_marginEnd="6dp"
+            android:layout_marginBottom="20dp"
+            android:background="@color/colorAccent"
+            android:text="KONFIRMASI" />
+    </LinearLayout>
+
+</ScrollView>

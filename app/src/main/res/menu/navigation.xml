@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_league"
+        android:title="@string/pertandingan" />
+
+    <item
+        android:id="@+id/navigation_notification"
+        android:icon="@drawable/ic_notifications"
+        android:title="@string/notifikasi" />
+
+
+    <item
+        android:id="@+id/navigation_profile"
+        android:icon="@drawable/ic_person"
+        android:title="@string/profil" />
+
+
+</menu>

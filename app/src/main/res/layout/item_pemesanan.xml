@@ -1,0 +1,135 @@
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cv_pemesanan"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:layout_marginBottom="8dp"
+    android:padding="20dp"
+    app:cardCornerRadius="16dp">
+
+    <RelativeLayout
+        android:id="@+id/viewPemesanan"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:id="@+id/tvBelumBayar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center_vertical"
+            android:textColor="@color/red"
+            android:text="BELUM BAYAR" />
+
+        <TextView
+            android:id="@+id/tvMatchIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvBelumBayar"
+            android:layout_marginStart="10dp"
+            android:layout_marginBottom="4dp"
+            android:drawableStart="@drawable/ic_league"
+            android:textSize="15sp"/>
+
+
+        <TextView
+            android:id="@+id/tvMatch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvBelumBayar"
+            android:layout_toRightOf="@+id/tvMatchIcon"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_marginStart="10dp"
+            android:layout_marginBottom="4dp"
+            android:textSize="15sp"
+            tools:text="Persib Bandung Vs Persela Lamongan"/>
+
+        <TextView
+            android:id="@+id/tvKursi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvMatch"
+            android:layout_marginStart="10dp"
+            android:layout_marginBottom="4dp"
+            android:drawableStart="@drawable/ic_event_seat_black_24dp"
+            android:textSize="15sp"/>
+
+        <TextView
+            android:id="@+id/tvNoKursiPemesanan"
+            android:layout_toRightOf="@+id/tvKursi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvMatch"
+            android:layout_marginStart="10dp"
+            android:layout_marginBottom="4dp"
+            android:textSize="15sp"
+            android:textColor="@color/black"
+            android:text="A01"/>
+
+
+        <TextView
+            android:id="@+id/tvTanggalIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvKursi"
+            android:layout_marginStart="10dp"
+            android:layout_marginBottom="4dp"
+            android:textSize="15sp"
+            android:drawableStart="@drawable/ic_event_note_black_24dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/tvTanggal"
+            android:layout_toRightOf="@+id/tvTanggalIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvKursi"
+            android:layout_marginStart="10dp"
+            android:layout_marginBottom="4dp"
+            android:textSize="15sp"
+            android:textColor="@color/black"
+            tools:text="20/3/2020"/>
+
+        <TextView
+            android:id="@+id/tvStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvTanggal"
+            android:layout_marginStart="10dp"
+            android:layout_marginBottom="4dp"
+            android:textSize="15sp"
+            android:drawableStart="@drawable/ic_info_black_24dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/tvStatus2"
+            android:layout_toEndOf="@+id/tvStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvTanggal"
+            android:layout_marginStart="10dp"
+            android:layout_marginBottom="4dp"
+            android:textSize="15sp"
+            android:text="Tersedia"
+            android:textColor="@color/green"/>
+
+        <TextView
+            android:id="@+id/tvLihatDetail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvStatus2"
+            android:layout_marginBottom="4dp"
+            android:textSize="15sp"
+            android:layout_centerInParent="true"
+            android:text="Lihat Detail"
+            android:textColor="@color/colorPrimary"/>
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

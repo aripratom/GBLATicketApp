@@ -1,0 +1,93 @@
+<resources>
+    <string name="app_name">GBLA Ticket App</string>
+
+    <string name="title_home">Home</string>
+    <string name="title_explore">Explore</string>
+    <string name="title_rental">Rental</string>
+    <string name="title_activity">Activity</string>
+    <string name="title_profile">Profile</string>
+
+    <string name="login">Masuk</string>
+    <string name="name">Nama Anda</string>
+    <string name="city">Kota</string>
+    <string name="email">Email</string>
+    <string name="phone">Telepon</string>
+    <string name="password">Kata Sandi</string>
+
+    <string name="login_validate">Email atau kata sandi Anda salah, coba lagi.</string>
+    <string name="name_validate">Mohon isi nama lengkap Anda</string>
+    <string name="city_validate">Mohon isi kota Anda</string>
+    <string name="email_validate">Mohon isi email Anda dengan benar</string>
+    <string name="phone_validate">Mohon isi nomor telepon Anda dengan benar</string>
+    <string name="password_validate">Panjang Kata Sandi minimal 8 karakter</string>
+    <string name="general_validate">Mohon isi kotak ini</string>
+
+    <string name="signup">Daftar</string>
+
+
+    <string name="member_validate">Mohon isi email Anda</string>
+    <string name="idTransaksi_validate">Mohon isi kode pembayaran Anda</string>
+
+    <string name="email_validate_tiket">Mohon isi email Anda dengan benar</string>
+    <string name="idTransaksi_validate_tiket">Mohon isi kode pembayaran Anda dengan benar</string>
+
+    <string name="forgot_password">Lupa Kata Sandi Anda?</string>
+
+    <string name="signup_failed">Sign up Gagal, Email telah digunakan !</string>
+
+    <string name="reset_password">Reset Kata Sandi</string>
+    <string name="send_email">Masukan email Anda untuk mereset kata sandi akun Anda.</string>
+    <string name="reset">Reset</string>
+    <string name="email_sent">Email untuk reset kata sandi terkirim. Mohon cek kotak pesan Anda.</string>
+    <string name="email_not_found">Akun dengan email ini tidak ditemukan. Mohon coba lagi dengan email yang berbeda.</string>
+    <string name="beli_tiket">BELI TIKET</string>
+    <string name="pilih_kursi">Pilih Kursi</string>
+    <string name="ringkasan_order">Ringkasan Order</string>
+    <string name="pembayaran">Ringkasan Pembayaran</string>
+    <string name="pemesanan">Pemesanan</string>
+    <string name="tiket">Tiket Saya</string>
+    <string name="konfirmasi_pemesanan">Konfirmasi Pemesanan</string>
+    <string name="stadion_gbla_bandung">STADION GBLA BANDUNG</string>
+    <string name="pertandingan">Pertandingan</string>
+    <string name="profil">Profil</string>
+    <string name="notifikasi">Pemberitahuan</string>
+    <string name="dialog_bayar">Apakah Anda yakin ingin membeli tiket ini?</string>
+    <string name="dialog_konfirmasi">Apakah yakin kode pembayaran Anda telah sesuai?</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="edit_profil">Edit Profil</string>
+    <string name="tentang">Tentang</string>
+    <string name="log_out">Log out</string>
+    <string name="keluar">Keluar</string>
+    <string name="menu">Menu</string>
+    <string name="gbla_ticketing_app">GBLA Ticketing App</string>
+    <string name="txt_pemesanan">Segera ke beranda dan pilih pemberitahuan untuk konfirmasi pembayaran tiket Anda.</string>
+    <string name="btn_pemesanan">SEGERA KEMBALI KE BERANDA DAN PILIH PEMBERITAHUAN UNTUK KONFIRMASI PEMBAYARAN TIKET ANDA</string>
+    <string name="konfirmasi">SEBELUM KONFIRMASI, PASTIKAN ANDA TELAH MEMILIKI KARTU MEMBER STADION GBLA YANG TELAH TERDAFTAR DALAM SISTEM.
+        JIKA BELUM MEMILIKI SEGERA HUBUNGI PENGELOLA STADION GBLA UNTUK MEMILIKI KARTU MEMBER YANG TERINTEGRASI DENGAN PINTU STADION.</string>
+    <string name="pemesanan_tab">PEMESANAN</string>
+    <string name="tiket_saya">TIKET SAYA</string>
+
+    <string name="tiket_tersedia">Tiket Tersedia</string>
+    <string name="tiket_digunakan">Tiket Telah Digunakan</string>
+
+    <string name="mohon_dibaca_dengan_seksama_e_voucher_ini_tidak_dapat_diperjualbelikan_hati_hati_terhadap_penipuan">MOHON DIBACA DENGAN SEKSAMA E-TIKET INI TIDAK DAPAT DIPERJUALBELIKAN, HATI-HATI TERHADAP PENIPUAN</string>
+    <string name="syarat_dan_ketentuan">SYARAT DAN KETENTUAN</string>
+    <string name="e_tiket_ini_adalah_tiket_anda_yang_sah">E-Tiket ini adalah TIKET Anda yang sah.</string>
+    <string name="wajib_membawa_menunjukan_dan_menscan_kartu_member_di_pintu_stadion_dan_jika_diwakilkan_wajib_membawa_surat_kuasa">WAJIB membawa, menunjukan, dan menempelkan Kartu Member di pintu stadion dan jika diwakilkan wajib membawa surat kuasa.</string>
+    <string name="e_tiket_tidak_akan_berlaku_jika_anda_tidak_membawa_kartu_member_anda">E-Tiket tidak akan berlaku jika Anda tidak membawa kartu member Anda.</string>
+    <string name="e_ticket_ini_adalah_tiket_anda_yang_sah">E-Ticket ini adalah TIKET Anda yang sah.</string>
+    <string name="e_tiket_ini_berlaku_sebagai_bukti_anda_membeli_tiket_dan_berguna_untuk_mencari_kursi_anda_di_stadion">E-Tiket ini berlaku sebagai bukti Anda membeli tiket, dan berguna untuk mencari kursi Anda di stadion.</string>
+    <string name="e_tiket_yang_sudah_dibeli_tidak_dapat_ditukar_atau_diuangkan_kembali">E-Tiket yang sudah dibeli tidak dapat ditukar atau diuangkan kembali.</string>
+    <string name="kami_tidak_bertanggung_jawab_atas_kehilangan_e_ticket_ini">Kami tidak bertanggung jawab atas kehilangan E-Tiket ini.</string>
+    <string name="pemalsuan_e_tiket_adalah_tindakan_illegal_dan_akan_ditindak_secara_hukum">Pemalsuan E-tiket adalah tindakan illegal dan akan ditindak secara hukum.</string>
+    <string name="dilarang_membawa_dan_menggunakan_segala_jenis_obat_obatan_terlarang">Dilarang membawa dan menggunakan segala jenis obat-obatan terlarang.</string>
+    <string name="dilarang_membawa_segala_jenis_senjata_api_maupun_senjata_tajam">Dilarang membawa segala jenis senjata api maupun senjata tajam.</string>
+    <string name="penyelenggara_berhak_untuk_tidak_memberikan_izin_untuk_masuk_ke_dalam_stadion_apabila_syarat_dan_ketentuan_tidak_dipenuhi">Penyelenggara berhak untuk tidak memberikan izin untuk masuk ke dalam stadion apabila syarat dan ketentuan tidak dipenuhi.</string>
+    <string name="lupa_kata_sandi">Lupa Kata Sandi</string>
+    <string name="masuk_aplikasi_gagal_periksa_kembali_email_dan_password_anda">Gagal Masuk Aplikasi, Periksa Kembali Email dan Password Anda</string>
+
+
+</resources>
